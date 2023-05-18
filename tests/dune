@@ -1,0 +1,7 @@
+(executable
+ (name numbers)
+ (modules numbers)
+ (libraries Mk))
+
+(cram
+ (deps ./numbers.exe))
